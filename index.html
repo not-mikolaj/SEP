@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test SEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="quiz-section">
+            <div class="quiz-header">
+                <h1 class="quiz-title">Test Bezpieczeństwa Elektrycznego</h1>
+                <p class="quiz-description">Tryb nieskończony - losowe pytania</p>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Przełącz tryb ciemny/jasny">☀️</button>
+                <div class="stats">
+                    <span>Poprawne: <span id="correct-count">0</span></span>
+                    <span>Błędne: <span id="incorrect-count">0</span></span>
+                    <span>Pominięte: <span id="skipped-count">0</span></span>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar" style="width: 0%;"></div>
+                </div>
+            </div>
+            
+            <div class="quiz-content">
+                <div class="question" id="question-text">
+                    <!-- Question text will be inserted here -->
+                </div>
+                
+                <div class="options" id="options-container">
+                    <!-- Options will be inserted here -->
+                </div>
+            </div>
+            
+            <div class="quiz-footer">
+                <button id="skip-btn" class="btn btn-secondary">Pomiń pytanie</button>
+                <button id="check-btn" class="btn btn-primary" disabled>Sprawdź odpowiedź</button>
+                <button id="next-btn" class="btn btn-primary hidden">Następne pytanie</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
