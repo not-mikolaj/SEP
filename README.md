@@ -1,3 +1,3 @@
 ## 🔗 Test It Out
 
-👉 [Click Here]([https://example.com](https://not-mikolaj.github.io/SEP/)) 👈
+👉 [**Click Here**][https://example.com](https://not-mikolaj.github.io/SEP/) 👈
